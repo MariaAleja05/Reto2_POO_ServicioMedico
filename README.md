@@ -16,3 +16,15 @@ classDiagram
     }
     Paciente"2" --> "1" CitaMédica : solicita()
 ```
+
+**2.** Relación paciente - cita médica
+
+```mermaid
+
+```
+
+**3.** Relaciones entre piezas
+
+```mermaid
+
+```
