@@ -63,5 +63,64 @@ classDiagram
 **3.** Relaciones entre especialidades
 
 ```mermaid
-
+classDiagram
+    direction LR
+    Especialidad <|-- Cardiología 
+    Especialidad <|-- Pediatria
+    Especialidad <|-- Dermatología
+    Especialidad <|-- Ginecología  
+    Especialidad <|-- Hematología
+    Especialidad <|-- Oftalmología
+    Especialidad <|-- Otorrinolaringología  
+    Especialidad <|-- Pediatría
+    Especialidad <|-- Oncología 
+    class Especialidad{
+        + Especialidad CitaMédica
+        + Examenes previos
+    }
+    class Cardiología {
+      + Historia Clínica
+      + Diagnostico
+      + Plan de tratamiento
+    }
+    class Pediatria{ 
+      + Historia Clínica
+      + Diagnostico
+      + Plan de tratamiento
+    }
+    class Dermatología{
+      + Historia Clínica
+      + Diagnostico
+      + Plan de tratamiento
+    }
+    class Ginecología {
+      + Historia Clínica
+      + Diagnostico
+      + Plan de tratamiento
+    }
+    class Hematología{
+      + Historia Clínica
+      + Diagnostico
+      + Plan de tratamiento
+    }
+    class Oftalmología{
+      + Historia Clínica
+      + Diagnostico
+      + Plan de tratamiento
+    }
+    class Otorrinolaringología {
+      + Historia Clínica
+      + Diagnostico
+      + Plan de tratamiento
+    }
+    class Pediatría{
+      + Historia Clínica
+      + Diagnostico
+      + Plan de tratamiento
+    }
+    class Oncología {
+      + Historia Clínica
+      + Diagnostico
+      + Plan de tratamiento
+    }
 ```
