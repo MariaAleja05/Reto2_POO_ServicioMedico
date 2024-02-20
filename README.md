@@ -60,7 +60,7 @@ classDiagram
     Regimen de Salud --* CitaMédica 
 ```
 
-**3.** Relaciones entre piezas
+**3.** Relaciones entre especialidades
 
 ```mermaid
 
