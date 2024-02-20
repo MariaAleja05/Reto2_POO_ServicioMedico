@@ -9,7 +9,10 @@ classDiagram
     direction RL
     class CitaMédica{
         + Pertenencia EPS
+        + Prepagada
         + Especialidad
+        + Fecha y hora
+        + Ubicación
     }
     class Paciente{
         
