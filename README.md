@@ -17,7 +17,7 @@ classDiagram
     class Paciente{
         
     }
-    Paciente"2" --> "1" CitaMédica : solicita()
+    Paciente --> CitaMédica : solicita()
 ```
 
 **2.** Relación paciente - cita médica
