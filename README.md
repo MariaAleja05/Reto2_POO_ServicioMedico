@@ -55,7 +55,7 @@ classDiagram
     }
     Paciente --> CitaMédica : solicita
     Especialidad --* CitaMédica 
-    IPS -->  EPS 
+    IPS --*  EPS 
     EPS *--  CitaMédica 
     Regimen de Salud --* CitaMédica 
 ```
